@@ -21,15 +21,15 @@ var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src",randomimage2);
 
 if (randomnumber > randomnumber2){
-    document.querySelector("h2").innerHTML = "Arey 2 Geluvu ra poooooka";
+    document.querySelector("h2").innerHTML = "Player 1 Won the Game";
 }
 
 else if (randomnumber < randomnumber2){
-    document.querySelector("h2").innerHTML = "Arey 1 erripoooka nuvvu odipoyav ra";
+    document.querySelector("h2").innerHTML = "Player 2 Won the Game";
 
 }
 else {
-    document.querySelector("h2").innerHTML = "Iddaru erripokulayyaru ra";
+    document.querySelector("h2").innerHTML = "DRAW";
 }
 
 
